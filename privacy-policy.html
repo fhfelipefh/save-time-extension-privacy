@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade da Save Time Extension</title>
+  <meta name="description" content="Política de Privacidade da Save Time Extension.">
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #5b6472;
+      --border: #d7dfeb;
+      --accent: #0f4c81;
+      --accent-soft: #e8f1fa;
+      --shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, #eef5ff 0, #f4f7fb 42%, #edf2f8 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(100%, 920px);
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .hero {
+      padding: 48px 0 24px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero-card {
+      padding: 36px;
+      background:
+        linear-gradient(135deg, rgba(15, 76, 129, 0.08), rgba(15, 76, 129, 0.02)),
+        var(--surface);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin: 0 0 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 62ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    main {
+      padding-bottom: 48px;
+    }
+
+    .policy {
+      padding: 10px;
+    }
+
+    section {
+      padding: 28px 26px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child {
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      color: var(--accent);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      color: var(--text);
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    .contact-box {
+      margin-top: 12px;
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #fbfdff;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+
+    footer {
+      padding: 0 24px 48px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 16px;
+      }
+
+      .hero {
+        padding-top: 20px;
+      }
+
+      .hero-card {
+        padding: 24px;
+      }
+
+      section {
+        padding: 22px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div class="card hero-card">
+        <p class="eyebrow">Documento público</p>
+        <h1>Política de Privacidade da Save Time Extension</h1>
+        <p class="lead">
+          Esta política descreve, de forma objetiva, como a Save Time Extension trata as
+          informações armazenadas para viabilizar automações configuradas pelo próprio usuário.
+        </p>
+        <div class="meta">
+          <strong>Última atualização:</strong> 19/06/2026
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="card policy">
+        <section id="introducao">
+          <h2>1. Introdução</h2>
+          <p>
+            A Save Time Extension é uma extensão de navegador criada para automatizar
+            preenchimentos de formulários e tarefas repetitivas em páginas da web, conforme
+            regras configuradas pelo próprio usuário.
+          </p>
+          <p>
+            Esta política explica quais informações podem ser armazenadas pela extensão, para
+            qual finalidade elas são utilizadas e quais controles permanecem sob responsabilidade
+            do usuário.
+          </p>
+        </section>
+
+        <section id="dados-armazenados">
+          <h2>2. Dados armazenados</h2>
+          <p>
+            A extensão pode armazenar localmente no navegador as configurações criadas pelo
+            usuário, incluindo sites habilitados, regras de preenchimento, seletores de campos,
+            tipos de automação e valores definidos pelo usuário para preenchimento automático.
+          </p>
+          <p>
+            Dependendo das regras criadas pelo usuário, esses valores podem conter informações
+            pessoais, como nome, e-mail, telefone, endereço, cidade, profissão, datas ou outros
+            dados digitados voluntariamente pelo usuário.
+          </p>
+        </section>
+
+        <section id="finalidade">
+          <h2>3. Finalidade do uso dos dados</h2>
+          <p>
+            Os dados são usados exclusivamente para permitir o funcionamento da extensão,
+            incluindo salvar regras por site e reaplicá-las em páginas compatíveis quando o
+            usuário acessar novamente esses sites.
+          </p>
+          <p>
+            A Save Time Extension não utiliza essas informações para perfilamento, publicidade,
+            enriquecimento de base de dados ou qualquer outra finalidade alheia à automação
+            configurada pelo próprio usuário.
+          </p>
+        </section>
+
+        <section id="armazenamento-local">
+          <h2>4. Armazenamento local</h2>
+          <p>
+            As informações são armazenadas localmente no navegador por meio dos mecanismos de
+            armazenamento do Chrome. Isso significa que os dados permanecem no ambiente do
+            navegador do próprio usuário, vinculados ao uso da extensão.
+          </p>
+          <p>
+            A extensão não envia essas informações para servidores externos, não mantém banco de
+            dados remoto e não depende de backend para guardar regras ou valores de preenchimento.
+          </p>
+        </section>
+
+        <section id="compartilhamento">
+          <h2>5. Compartilhamento de dados</h2>
+          <p>
+            A extensão não vende, transfere, compartilha ou divulga dados do usuário para
+            terceiros.
+          </p>
+          <p>
+            Também não existe sincronização com servidores próprios, repasse comercial de dados
+            ou integração destinada ao compartilhamento das informações configuradas pelo usuário.
+          </p>
+        </section>
+
+        <section id="coleta-automatica">
+          <h2>6. Coleta automática</h2>
+          <p>
+            A extensão não coleta histórico de navegação, não realiza rastreamento para
+            publicidade, não utiliza analytics externo e não monitora a atividade do usuário para
+            finalidades não relacionadas ao funcionamento da extensão.
+          </p>
+          <p>
+            Qualquer leitura de página ocorre apenas para permitir a configuração e a execução
+            das automações desejadas pelo usuário nos sites onde ele optar por utilizar a
+            extensão.
+          </p>
+        </section>
+
+        <section id="permissoes">
+          <h2>7. Permissões do navegador</h2>
+          <p>
+            A extensão utiliza permissões do navegador para identificar a aba atual, acessar
+            páginas em que o usuário deseja configurar automações, salvar regras localmente e
+            aplicar os preenchimentos configurados pelo usuário.
+          </p>
+          <ul>
+            <li>Identificar a aba atual e o site em uso para associar regras ao domínio correto.</li>
+            <li>Acessar o conteúdo das páginas nas quais o usuário deseja configurar automações.</li>
+            <li>Salvar localmente regras, seletores, tipos de automação e valores definidos pelo usuário.</li>
+            <li>Aplicar preenchimentos automáticos ou ações configuradas pelo usuário em páginas compatíveis.</li>
+          </ul>
+        </section>
+
+        <section id="controle">
+          <h2>8. Controle do usuário</h2>
+          <p>
+            O usuário pode remover ou alterar suas regras a qualquer momento pela interface da
+            extensão.
+          </p>
+          <p>
+            O usuário também pode excluir os dados da extensão removendo a extensão do navegador
+            ou limpando os dados armazenados pelo navegador. Como o armazenamento é local, o
+            controle sobre permanência e exclusão dessas informações permanece com o próprio
+            usuário.
+          </p>
+        </section>
+
+        <section id="alteracoes">
+          <h2>9. Alterações nesta política</h2>
+          <p>
+            Esta política pode ser atualizada para refletir mudanças na extensão ou em seus
+            recursos.
+          </p>
+          <p>
+            Quando houver alterações relevantes, a data de atualização deste documento será
+            revisada para indicar a versão mais recente da política publicada.
+          </p>
+        </section>
+
+        <section id="contato">
+          <h2>10. Contato</h2>
+          <p>
+            Em caso de dúvidas sobre esta Política de Privacidade ou sobre o funcionamento da
+            Save Time Extension, entre em contato pelo e-mail abaixo:
+          </p>
+          <div class="contact-box">
+            <strong>E-mail:</strong>
+            <a href="mailto:felipehonorio55@gmail.com">felipehonorio55@gmail.com</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    Save Time Extension — Política de Privacidade pública.
+  </footer>
+</body>
+</html>
